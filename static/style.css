@@ -1,0 +1,186 @@
+body {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+}
+
+input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    width: 100%;
+    height: 100px;
+}
+
+
+a {
+    color: #8B9E9B;
+}
+
+a:hover {
+    color: #455757;
+}
+
+
+@media screen and (min-width: 1000px) {
+    body {
+        width: 1000px;
+        margin: auto;
+    }
+}
+
+.header {
+    margin-bottom: 10px;
+}
+
+.greeting {
+    color: #f7d5c6;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.log > a {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #8B9E9B;
+    font-size: 15px;
+}
+
+.log:hover > a {
+    color: #455757;
+}
+
+.flash {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #FFD600;
+}
+
+.banner {
+    max-height: 20%;
+    margin-top: 30px;
+    font-family: 'Yesteryear', cursive;
+}
+
+.banner-logo > a {
+    margin-top: 30px;
+    font-size: 80px;
+    font-weight: 30;
+    color: #60C3C2;
+}
+
+.banner-logo:hover > a {
+    color: #60C3C2;
+}
+
+.message {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #455757;
+}
+
+.create > a {
+    font-weight: bold;
+    color: #00838F;
+}
+
+.create:hover > a {
+    color: #0277BD;
+}
+
+.notebook {
+    min-width: 80%;
+    background-color: #E4F2F5;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.notebook:hover {
+    background-color: #B0DBDD;
+    color: #FFFFFF;
+}
+
+.notebook-name > a {
+    font-size: 20px;
+    font-weight: bold;
+    color: #60C3C2;
+}
+
+.notebook-name:hover > a {
+    color: #015249;
+}
+
+.notebook-title {
+    color: #455757;
+}
+
+.card-list {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.card {
+    background-color: #E4F2F5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card-term {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card-tag {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.warning {
+    color: #FF3333;
+}
+
+.label {
+    color: #000000;
+}
+
+.error {
+    color: #FF3333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
